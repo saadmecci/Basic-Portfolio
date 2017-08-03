@@ -29,7 +29,6 @@ body {
 }
 
 .buttons {
-
 	float: left;
 	margin: 28px 0px 0px 500px;
 	width: 200px;
@@ -100,9 +99,11 @@ body {
 * {
   margin: 0;
 }
+
 html, body {
   height: 100%;
 }
+
 .pagewrap {
   min-height: 100%;
   margin-bottom: -10px; 
@@ -111,9 +112,11 @@ html, body {
   content: "";
   display: block;
 }
+
 .footer, .pagewrap:after {
   height: 10px; 
 }
+
 .footer {
   background: #666666;
   color: lightgrey;
@@ -272,7 +275,7 @@ html, body {
 }
 
 .row3 {
-	margin: 473px 0px 685px 0px;
+	margin: 472px 0px 685px 0px;
 }
 
 .contactform {
@@ -314,6 +317,34 @@ html, body {
 	padding: 10px;
 }
 
-.buttons{
-	
+#contact-btn {
+	background-color: #ffffff;
+	border: none;
+	color: #777777;
+	padding: 6px 0px 6px 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 8px;
+}
+
+#portfolio-btn {
+	background-color: #ffffff;
+	border: none;
+	color: #777777;
+	padding: 6px 0px 6px 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 8px;
+	margin-right: 11px;
+}
+
+#about-btn {
+	background-color: #ffffff;
+	border: none;
+	color: #777777;
+	padding: 6px 0px 6px 0px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 8px;
+	margin-right: 11px;
 }
